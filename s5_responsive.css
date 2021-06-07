@@ -1,0 +1,390 @@
+/* ANY CSS FOR ALL WIDTHS GOES HERE
+----------------------------------------------------------- */
+
+/* ALL WIDTHS UNDER 970PX
+----------------------------------------------------------- */
+
+@media screen and (max-width: 970px){
+
+	/* DEFAULT
+	----------------- */
+
+	.s5_wrap {
+	width:92% !important;
+	}
+	
+	.s5_is_display, .s5_is_slide {
+	position:relative !important;
+	}
+	
+	.s5_is_slide {
+	height:auto !important;
+	}
+	
+	#fontControls {
+	display:none;
+	}
+	
+	/* CUSTOM
+	----------------- */
+	
+	body {
+	font-size:0.9em !important;
+	}
+	
+	#s5_pos_custom_2 {
+		width:auto;
+	}
+	
+	.top_text_sub1 br {
+		display:none;
+	}
+	
+	#s5_pos_custom_2_wrap {
+		top:50% !important;
+	}
+	
+	.top_text_signature {
+		margin-bottom:26px;
+	}
+	
+	.top_text_sub2 {
+		margin-bottom:15px;
+	}
+	
+	.top_text_sub1 {
+		font-size:1.8em;
+	}
+	
+	.about_left {
+		width:100%;
+	}
+	
+	.about_right {
+		float:left;
+	}
+	
+	.top_box_inner {
+		margin-left:25px;
+	}
+	
+	.top_boxes {
+		margin-left:-25px;
+	}
+	
+	.top_box_inner {
+		padding:25px;
+	}
+	
+	.abilities_left, .abilities_right {
+		width:100%;
+		margin-top:0px;
+	}
+	
+	.abilities_left {
+		margin-bottom:50px;
+	}
+	
+	.stats_box {
+		width:50%;
+		margin-bottom:40px;
+	}
+	
+	.stats_wrap {
+		margin-bottom:-40px;
+		float:left;
+		width:100%;
+	}
+	
+	.experience_left {
+		width:100%;
+	}
+	
+	.experience_right {
+		width:95%;
+	}
+	
+	.client_tab .s5_tab_show_pretext_inside {
+		width:100%;
+	}
+	
+	.s5_tab_show_slides_buttons_top {
+		margin-bottom:10px;
+	}
+	
+	.client_tab .s5_tab_show_pretext_inside {
+		margin-bottom:45px;
+	}
+	
+	.s5_yes_custom_bg .s5_yes_custom_bg, .s5_yes_custom_bg .s5_no_custom_bg, .s5_no_custom_bg .s5_yes_custom_bg, .s5_no_custom_bg .s5_no_custom_bg {
+		padding-top:60px;
+		padding-bottom:10px;
+	}
+	
+	.module_round_box.extra_padding {
+		padding:0px;
+	}
+	
+	#s5_center_area2 {
+		padding-bottom:60px;
+	}
+	
+	#s5_pos_custom_5, .bottom_contact_word_wrap {
+		padding-top:60px;
+		padding-bottom:60px;
+	}
+	
+	#s5_bottom_menu_wrap {
+		padding-top:55px;
+		padding-bottom:55px;
+	}
+	
+	#s5_top_row2_area1 {
+		background-position:0px 0px !important;
+	}
+	
+	#s5_header_area_inner {
+		width:100% !important;
+	}
+	
+	#s5_header_wrap {
+		padding-left:20px !important;
+		padding-right:20px !important;
+	}
+	
+}
+
+
+/* TABLET PORTRAIT MODE CSS
+----------------------------------------------------------- */
+
+@media screen and (min-width:580px) and (max-width: 970px){
+
+	
+	/* CUSTOM
+	----------------- */
+	
+}
+
+
+/* TABLET PORTRAIT MODE CSS - SMALLER TABLETS
+----------------------------------------------------------- */
+
+@media screen and (max-width: 750px){
+
+	/* CUSTOM
+	----------------- */
+	
+	#s5_bottom_menu_wrap ul.menu li {
+		display:block;
+	}
+	
+	#s5_language_wrap {
+		float:left;
+	}
+	
+	#s5_pos_language li {
+		margin:0px;
+		margin-right:8px;
+	}
+	
+	.s5_languageflags {
+		margin:0px;
+	}
+	
+	#s5_footer {
+		width:100%;
+	}
+
+	.bottom_contact img {
+		display:none;
+	}
+
+	.bottom_contact {
+		padding:0px;
+		padding-top:0px;
+	}
+	
+	.bottom_contact_word_wrap {
+		background:#FFFFFF;
+	}
+	
+	.bottom_contact_word_wrap .readon {
+		margin-top:30px;
+	}
+	
+	.download_bar .readon {
+		width:80%;
+		margin:0px;
+		margin-top:20px;
+	}
+	
+	.s5_masonry_articles li {
+		margin-bottom:4px !important;
+	}
+	
+	#s5_masonry_navwrap {
+		padding-bottom:43px !important;
+	}
+	
+}
+
+
+/* MOBILE LAYOUT CSS
+----------------------------------------------------------- */
+
+@media screen and (max-width: 579px){
+
+	/* DEFAULT
+	----------------- */
+
+	#s5_right_column_wrap_inner .s5_float_left, #s5_left_column_wrap_inner .s5_float_left {
+	float:none;
+	}
+
+	#s5_columns_wrap_inner {
+	width:100%;
+	}
+
+	#s5_center_column_wrap {
+	width:100%;
+	left:100%;
+	}
+
+	#s5_left_column_wrap {
+	left:0%;
+	}
+	
+	#s5_left_top_wrap, #s5_left_column_wrap, #s5_left_inset_wrap, #s5_left_wrap, #s5_left_bottom_wrap, #s5_right_top_wrap, #s5_right_column_wrap, #s5_right_inset_wrap, #s5_right_wrap, #s5_right_bottom_wrap, #s5_top_row1 .s5_float_left, #s5_top_row2 .s5_float_left, #s5_top_row3 .s5_float_left, #s5_above_columns_inner .s5_float_left, #s5_middle_top .s5_float_left , #s5_middle_bottom .s5_float_left, #s5_below_columns_inner .s5_float_left, #s5_bottom_row1 .s5_float_left, #s5_bottom_row2, .s5_float_left, #s5_bottom_row3 .s5_float_left, #s5_above_body .s5_float_left, #s5_below_body .s5_float_left {
+	width:100% !important;
+	}
+	
+	#s5_center_column_wrap_inner {
+	margin:0px !important;
+	}
+	
+	#s5_left_column_wrap {
+	margin-right:0px !important;
+	}
+	
+	#s5_right_column_wrap {
+	margin-left:0px !important;
+	}
+	
+	.items-row .item {
+	width:100% !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	}
+	
+	/* CUSTOM
+	----------------- */
+	
+	#s5_pos_custom_2_wrap {
+		display:none;
+	}
+	
+	.stats_box {
+		width:100%;
+	}
+	
+	.client_box img {
+		margin:0px;
+		width:100%;
+		margin-bottom:25px;
+	}
+	
+	.client_box_text {
+		float:left;
+	}
+
+}
+
+
+/* CUSTOM SIZES
+----------------------------------------------------------- */
+
+@media screen and (max-width: 1200px){
+
+	#top_image {
+		height:700px !important;
+		max-width:100000000000px !important;
+		width:auto !important;
+		float:right;
+	}
+
+}
+
+@media screen and (max-width: 1200px){
+
+	#s5_nav li, #s5_login, #s5_register, #s5_search_wrap {
+	margin-left:20px;
+	}
+}
+
+@media screen and (max-width: 900px){
+
+	#top_image {
+		height:500px !important;
+	}
+	
+	#s5_logo_wrap {
+		margin-top:-10px;
+		margin-bottom:-10px;
+	}
+	
+	#top_text_effect {
+		visibility:visible !important;
+	}
+	
+	#s5_right_wrap, #s5_left_wrap {
+		padding-top:85px;
+	}
+	
+	#s5_right_wrap .module_round_box_outer, #s5_left_wrap .module_round_box_outer {
+		margin-left:0px;
+		margin-right:0px;
+	}
+	
+	#s5_center_column_wrap_inner {
+		padding-left:0px !important;
+		padding-right:0px !important;
+	}
+
+}
+
+@media screen and (max-width: 850px){
+	
+	.top_box {
+		width:100%;
+		margin-bottom:25px;
+	}
+	
+	.top_boxes {
+		margin-bottom:-25px;
+	}
+	
+	.client_box {
+		width:100%;
+		margin-bottom:25px;
+	}
+	
+	.client_wrap {
+		margin-bottom:-25px;
+	}
+
+}
+
+@media screen and (max-width: 600px){
+
+	#top_image {
+		height:400px !important;
+	}
+
+}
+
+.s5_responsive_mobile_present #s5_scrolltopvar {
+	display:none !important;
+}
